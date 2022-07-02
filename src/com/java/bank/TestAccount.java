@@ -33,7 +33,6 @@ public class TestAccount {
 		}
 
 
-
 		Account[] arr = new Account[4];
 		arr[0] = checkingAccount;
 		arr[1] = savingsAccount;
