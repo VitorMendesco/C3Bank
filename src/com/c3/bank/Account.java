@@ -1,14 +1,18 @@
-package com.java.bank;
+package com.c3.bank;
+
+import java.io.Serializable;
 
 /** 
  * Account is a class that abstracts simple functions of bank account
  * @author Vitor
  * @version 1.0
  */
-public class Account {
+public class Account implements Serializable {
 
 	Client client = new Client();
 
+	/** serializable id */
+	private static final long serialVersionUID = 1L;
 	/** account number and agency */
 	private int number, agency;
 	/** account balance */

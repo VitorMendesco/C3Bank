@@ -1,5 +1,10 @@
-package com.java.bank;
+package com.c3.bank;
 
+/** 
+ * TestAccount is a unit test class to Account class
+ * @author Vitor
+ *
+ */
 public class TestAccount {
 
 	public static void main(String[] args) {

@@ -1,12 +1,16 @@
-package com.java.bank;
+package com.c3.bank;
+
+import java.io.Serializable;
 
 /**
  * Client is a class that abstracts relevant informations about clients
  * @author Vitor
  * @version 1.0
  */
-public class Client {
+public class Client implements Serializable {
 
+	/** serializable id */
+	private static final long serialVersionUID = 1L;
 	/** client name */
 	private String name;
 	/** client age */

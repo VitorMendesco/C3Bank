@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.java.bank","l":"Account"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.java.bank","l":"Client"},{"p":"com.java.bank","l":"TestAccount"}];updateSearchResults();
