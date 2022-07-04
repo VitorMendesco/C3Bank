@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Client is a class that abstracts relevant informations about clients
  * @author Vitor
- * @version 1.0
+ * @version 1.1
  */
 public class Client implements Serializable {
 
@@ -27,24 +27,24 @@ public class Client implements Serializable {
 		this.age = age;
 	}
 	
-	/** getName() from class Client
+	/** get the name from class Client
 	 * @return the name of the client */
 	public String getName() {
 		return this.name;
 	}
-	/** setName() from class Client
-	 * @param name - the name to replace the actual client name */
+	/** set the name from class Client
+	 * @param name - String to replace the actual client name value */
 	public void setName(String name) {
 		this.name = name;
 	}
 	
-	/** getAge() from class Client
+	/** get the age from class Client
 	 * @return the age of the client */
 	public byte getAge() {
 		return this.age;
 	}
-	/** setAge() from class Client
-	 * @param age - the age to replace the actual client age */
+	/** set the age from class Client
+	 * @param age - byte to replace the actual client age value */
 	public void setAge(byte age) {
 		this.age = age;
 	}

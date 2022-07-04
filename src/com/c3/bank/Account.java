@@ -5,7 +5,7 @@ import java.io.Serializable;
 /** 
  * Account is a class that abstracts simple functions of bank account
  * @author Vitor
- * @version 1.0
+ * @version 1.1
  */
 public class Account implements Serializable {
 
@@ -41,46 +41,46 @@ public class Account implements Serializable {
 		client.setName(name);
 	}
 
-	/** getNumber() from class Account
+	/** get the account number from class Account
 	 * @return the number of the account */
 	public int getNumber() {
 		return this.number;
 	}
-	/** setNumber() from class Account
-	 * @param number - value to replace the actual account number */
+	/** set the account number from class Account
+	 * @param number - int to replace the actual account number value */
 	public void setNumber(int number) {
 		this.number = number;
 	}
 
-	/** getAgency() from class Account
+	/** get agency number from class Account
 	 * @return the agency of the account*/
 	public int getAgency() {
 		return this.agency;
 	}
-	/** setAgency() from class Account
-	 * @param agency - value to replace the actual account agency */
+	/** set agency number from class Account
+	 * @param agency - int to replace the actual account agency value */
 	public void setAgency(int agency) {
 		this.agency = agency;
 	}
 
-	/** getBalance() from class Account
+	/** get the balance from class Account
 	 * @return the balance of the account */
 	public double getBalance() {
 		return this.balance;
 	}
-	/** setBalance() from class Account
-	 * @param balance - value to replace the actual account balance */
+	/** set the balance from class Account
+	 * @param balance - double to replace the actual account balance value */
 	public void setBalance(double balance) {
 		this.balance = balance;
 	}
 
-	/** addBalance() from class Account
+	/** add to balance from class Account
 	 * @param balance - value to add to the total account balance */
 	public void addBalance(double balance) {
 		this.balance += balance;
 	}
 
-	/** removeBalance() from class Account
+	/** remove from balance from class Account
 	 * @param balance - value to remove from the total account balance
 	 * @return the new account balance */
 	public double removeBalance(double balance) {
