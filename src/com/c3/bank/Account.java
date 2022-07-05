@@ -76,8 +76,9 @@ public class Account implements Serializable {
 
 	/** add to balance from class Account
 	 * @param balance - value to add to the total account balance */
-	public void addBalance(double balance) {
+	public double addBalance(double balance) {
 		this.balance += balance;
+		return this.balance;
 	}
 
 	/** remove from balance from class Account

@@ -3,7 +3,7 @@ package com.c3.bank;
 /** 
  * TestAccount is a unit test class to Account class
  * @author Vitor
- *
+ * @version 1.4
  */
 public class TestAccount {
 
@@ -44,6 +44,8 @@ public class TestAccount {
 		arr[2] = investAccount;
 		arr[3] = errorAccount;
 
+		System.out.println("\n--- Account Unit Test ---\n");
+		
 		for (byte i = 0; i < arr.length; i++) {
 			String message = "";
 			if (arr[i] != null) {
@@ -53,6 +55,7 @@ public class TestAccount {
 				double balance = arr[i].getBalance();
 
 				message = 
+						"\nAccount: " + arr[i] + 
 						"\nName: " + name + 
 						"\nAge: " + age + 
 						"\nAgency: " + agency + 
