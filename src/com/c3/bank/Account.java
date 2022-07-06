@@ -5,7 +5,7 @@ import java.io.Serializable;
 /** 
  * Account is a class that abstracts simple functions of bank account
  * @author Vitor
- * @version 1.1
+ * @version 1.2
  */
 public class Account implements Serializable {
 
@@ -75,7 +75,8 @@ public class Account implements Serializable {
 	}
 
 	/** add to balance from class Account
-	 * @param balance - value to add to the total account balance */
+	 * @param balance - value to add to the total account balance 
+	 * @return the balance of the account */
 	public double addBalance(double balance) {
 		this.balance += balance;
 		return this.balance;
