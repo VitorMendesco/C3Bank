@@ -1,1 +1,1 @@
-typeSearchIndex = [{"p":"com.c3.bank","l":"Account"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.c3.bank","l":"CheckingAccount"},{"p":"com.c3.bank","l":"Client"},{"p":"com.c3.bank","l":"TestAccount"},{"p":"com.c3.bank","l":"TestInheritance"}];updateSearchResults();
+typeSearchIndex = [{"p":"com.c3.bank","l":"Account"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"}];updateSearchResults();

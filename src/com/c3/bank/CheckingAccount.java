@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * <pre>
- * CheckingAccount is a subclass from Account that is segmented in types and has an overdraft.
+ * CheckingAccount is a final(cannot be extended) subclass from Account that is segmented in types and has an overdraft.
  * 
  * - checking accounts have an extended balance limit (overdraft)
  * - checking accounts have an additional percentage tax at withdraw
@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @author Vitor
  * @version 1.1
  */
-public class CheckingAccount extends Account implements Serializable {
+public final class CheckingAccount extends Account implements Serializable {
 
 	/** serializable id */
 	private static final long serialVersionUID = 1L;

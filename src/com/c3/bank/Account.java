@@ -3,7 +3,7 @@ package com.c3.bank;
 import java.io.Serializable;
 
 /** 
- * Account is a class that abstracts simple functions of bank account
+ * Account is an abstract class (cannot be instantiated) that abstracts simple functions of bank account
  * @author Vitor
  * @version 1.2
  */
