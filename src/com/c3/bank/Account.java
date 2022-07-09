@@ -7,7 +7,7 @@ import java.io.Serializable;
  * @author Vitor
  * @version 1.2
  */
-public class Account implements Serializable {
+public abstract class Account implements Serializable {
 
 	Client client = new Client();
 

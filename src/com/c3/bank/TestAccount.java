@@ -8,9 +8,15 @@ package com.c3.bank;
 public class TestAccount {
 
 	public static void main(String[] args) {
+		// Cannot execute anymore because Accoutn is an abstract class (can't be instantiated)
+		/* 
 		Account checkingAccount = new Account();
 		Account savingsAccount = new Account(202, 2, 500);
 		Account investAccount = new Account(404, 4, 870.0, (byte) 20, "Gabriel");
+		*/
+		Account checkingAccount = new CheckingAccount();
+		Account savingsAccount = new CheckingAccount();
+		Account investAccount = new CheckingAccount();
 		Account errorAccount = null;
 
 		if (checkingAccount != null) {			
